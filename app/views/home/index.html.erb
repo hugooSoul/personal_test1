@@ -1,0 +1,37 @@
+<!-- Wrapper -->
+<div id="wrapper">
+
+	<!-- Main -->
+	<section id="main">
+		<header>
+			<span class="avatar"><%= image_tag("hugo.jpg") %></span>
+			<h1>Hugo Lopez Mandujano</h1>
+			<p>Software Developer</p>
+		</header>
+		
+		<footer>
+			<ul class="icons">
+				<li><a href="https://github.com/hugooSoul" class="fa-github-alt" target="blank">Github</a></li>
+				<li><a href="mailto:hugol.soul@gmail.com" class="fa-envelope-o" target="blank">Email</a></li>
+				<li><a href="https://mx.linkedin.com/in/hugoosoul" class="fa-linkedin" target="blank">Linkedin</a></li>
+			</ul>
+		</footer>
+	</section>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<ul class="copyright">
+			<li>&copy; Hugo LM</li>
+		</ul>
+	</footer>
+
+</div>
+
+<!-- Scripts -->
+<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+<script>
+	if ('addEventListener' in window) {
+		window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+		document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+	}
+</script>
